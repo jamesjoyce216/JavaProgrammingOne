@@ -49,7 +49,7 @@ public class P7 {
     /**
      * average double method
      *
-     * @param averageVar
+     * @param averageVar average variable
      * @return finalAverage
      */
     //find average in new method
@@ -65,7 +65,7 @@ public class P7 {
     /**
      * printing Method
      *
-     * @param manyVars
+     * @param manyVars many variables
      */
     public static void printing(int[] manyVars) {
         System.out.println(Arrays.toString(manyVars));
