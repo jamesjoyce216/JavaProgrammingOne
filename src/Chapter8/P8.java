@@ -5,7 +5,7 @@ import java.lang.*;
 
 /**
  * Program to show salesman schedule
- * 
+ *
  * @author James Joyce
  */
 public class P8 {
@@ -15,8 +15,6 @@ public class P8 {
      *
      * @param args arguments from command line prompt
      */
-
-    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -29,9 +27,8 @@ public class P8 {
         double sale;
         double[][] totalSales = new double[4][5];
 
-        while(answer.equalsIgnoreCase("Y")) {
+        while (answer.equalsIgnoreCase("Y")) {
 
-            
             System.out.print("Enter the Salesman ID as A, B, C, or D: ");
             salesman = input.next();
 
@@ -86,35 +83,32 @@ public class P8 {
                 System.out.print("Wrong input. Now enter Y for more or N to stop: ");
                 answer = input.next();
             }
-            }
-        
-        System.out.println();
-            System.out.println("\tSalesman\tM\tT\tW\tH\tF");
+        }
 
-                System.out.print("\tA\t\t");
-                for (int a = 0; a < 5; a++) {
-                System.out.print(totalSales[0][a] + "\t");
-                }
-                
-                System.out.println();
-                System.out.print("\tB\t\t");
-                for (int a = 0; a < 5; a++) 
-                {
-                System.out.print(totalSales[1][a] + "\t");
-                }
-            
-                System.out.println();
-                System.out.print("\tC\t\t");
-                for (int a = 0; a < 5; a++) 
-                {
-                System.out.print(totalSales[2][a] + "\t");
-                }
-            
-                System.out.println();
-                System.out.print("\tD\t\t");
-                for (int a = 0; a < 5; a++) 
-                {
-                System.out.print(totalSales[3][a] + "\t");
-                }
+        System.out.println();
+        System.out.println("\tSalesman\tM\tT\tW\tH\tF");
+
+        System.out.print("\tA\t\t");
+        for (int a = 0; a < 5; a++) {
+            System.out.print(totalSales[0][a] + "\t");
+        }
+
+        System.out.println();
+        System.out.print("\tB\t\t");
+        for (int a = 0; a < 5; a++) {
+            System.out.print(totalSales[1][a] + "\t");
+        }
+
+        System.out.println();
+        System.out.print("\tC\t\t");
+        for (int a = 0; a < 5; a++) {
+            System.out.print(totalSales[2][a] + "\t");
+        }
+
+        System.out.println();
+        System.out.print("\tD\t\t");
+        for (int a = 0; a < 5; a++) {
+            System.out.print(totalSales[3][a] + "\t");
+        }
     }
 }

@@ -29,7 +29,15 @@ public class C6_18 {
 
     }
 
-    //If Password is Valid
+    //
+    /**
+     * isValid Method
+     *
+     * If Password is Valid
+     *
+     * @param p string
+     * @return false true
+     */
     public static boolean isValid(String p) {
         int counter = 0;
 

@@ -79,6 +79,13 @@ public class P6 {
 
     }
 
+    /**
+     * conversion Method
+     *
+     * @param dollars US currency
+     * @param currency currency we are changing to.
+     * @return new amount in new currency
+     */
     //set method for converting
     public static double conversion(double dollars, double currency) {
 
